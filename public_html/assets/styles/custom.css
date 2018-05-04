@@ -1,0 +1,523 @@
+body{
+    /*height:min-content;*/
+    padding-bottom: 40px;
+    padding-top: 110px;
+    font-family: "Montserrat",sans-serif !important;
+    font-size:1rem !important;
+}
+table{
+    width:100%
+}
+ul .nav-item .nav-link {
+    color: #000000 !important;
+}
+
+.ks-page-custom{
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -js-display: flex;
+    display: flex;
+    height: 35%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+
+.ks-page-custom > .ks-body {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -js-display: flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto; }
+
+.navbar{
+    background-color: #f6f6f6;!important;
+}
+
+.nav-item .nav-link:hover{
+    color: #7D8D94;
+}
+
+.blocklink{
+    color: #fff; !important;
+}
+
+.blocklink:hover{
+    color: #000; !important;
+}
+
+.col-xl-4{
+    padding-bottom:15px;
+}
+
+.alignVeritcally{
+    vertical-align: middle;
+    padding:10px;
+}
+.fileContainer {
+    overflow: hidden;
+    position: relative;
+}
+
+.fileContainer [type=file] {
+    cursor: inherit;
+    display: block;
+    font-size: 999px;
+    filter: alpha(opacity=0);
+    min-height: 100%;
+    min-width: 100%;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    text-align: right;
+    top: 0;
+}
+
+.search-results-dropdown{
+    width: 100%;
+}
+
+
+label.fileContainer > span:hover{
+    background-color: #666666;
+}
+
+.padding{
+    padding: 25px;
+    /*border: solid 3px #000000;
+    background:rgba(37,98,143,.4);*/
+}
+
+.event-cata{
+    background:rgba(37,98,143,.4);
+}
+
+.ks-addmore{
+    margin-left: 10px;
+    width: 23px;
+    height: 23px;
+    -webkit-border-radius: 12px;
+    border-radius: 12px;
+    border: solid 1px #25628F;
+    display: block;
+    font-size: 14px;
+    color: #25628F;
+    line-height: 21px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+.ks-tabs-container.ks-tabs-default {
+    height: min-content;
+}
+
+.ks-footer{
+    position: fixed;
+    background-color:#B1C36D;
+    color: #ffffff;
+    height:50px;
+    padding-bottom: 10px;
+    text-align: center;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    font-weight: 300;
+    font-size: 12pt;
+}
+
+/* Tooltip container*/
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext{
+    visibility: hidden;
+    width: 350px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    right:105%;
+    top:-5px;
+
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip .tooltiptext a{
+    color: #FFFFFF;
+}
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+.admin-block{
+    padding-bottom: 50px;
+}
+
+.img-responsive {
+    display:block;
+    max-width:100%;
+    height:auto
+}
+
+.ks-avatar img.img-responsive{
+    max-height:100px;
+    max-width:100px;
+}
+
+.img-rounded{
+    border-radius:6px
+}
+
+.img-thumbnail{
+    padding:2px;
+    line-height:1.6;
+    background-color:#f5f8fa;
+    border:1px solid #ddd;
+    border-radius:2px;
+    -webkit-transition:all .2s ease-in-out;
+    transition:all .2s ease-in-out;
+    display:inline-block;
+    max-width:100%;height:auto
+}
+
+.ks-logo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.companyAdmin{
+    border:2px #6f0b19 dotted;
+    padding:5px;
+}
+
+.intrinsic-container {
+    position: relative;
+    height: 0;
+    overflow: hidden;
+}
+
+/* 16x9 Aspect Ratio */
+.intrinsic-container-16x9 {
+    padding-bottom: 56.25%;
+}
+
+/* 4x3 Aspect Ratio */
+.intrinsic-container-4x3 {
+    padding-bottom: 75%;
+}
+
+.intrinsic-container iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+* {
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -o-box-sizing:border-box;
+    box-sizing:border-box;
+}
+
+.acc-container {
+    width:90%;
+    margin:30px auto 0 auto;
+    overflow:hidden;
+    border:solid 1px #000000;
+}
+
+.acc-btn {
+    width:100%;
+    margin:0 auto;
+    padding:20px 25px;
+    cursor:pointer;
+    border-bottom:1px solid #2C3E50;
+}
+
+.acc-content {
+    height:0px;
+    width:100%;
+    margin:0 auto;
+    overflow:hidden;
+}
+
+.acc-content-inner {
+    padding:30px;
+    background:#fff;
+}
+
+.open {
+    height: auto;
+}
+
+h1 {
+    font:700 16px/22px 'Franklin Gothic', sans-serif;
+    color:#ffffff;
+}
+
+p {
+    font:400 14px/20px 'Franklin Gothic', sans-serif;
+}
+
+.selected {
+    #color:#1ABC9C;
+}
+
+.purple {
+    background:#5E539F;
+    color:#fff; !important
+}
+
+.light-blue {
+    background:#6ABDD8;
+}
+
+.light-green {
+    background:#6BB97C;
+}
+
+.light-orange
+{
+    background:#F2C074;
+}
+
+.orange {
+    background:#F27848;
+}
+
+.landing-buttons {
+    height: 80px;
+!important;
+    width: 85px;
+!important;
+    background: darkgrey !important;
+    color: inherit;
+    border: none;
+    font: inherit;
+    cursor: pointer;
+}
+
+.bordered{
+    border:1px solid #000000;
+}
+
+.ks-header{
+    padding-top:60px;
+}
+
+
+.clear-header{
+    padding-top:0;
+}
+
+.admin{
+    padding:10px;
+}
+
+.paddingTop{
+    padding-top:60px;
+}
+
+.paddingTopHalf{
+    padding-top:30px;
+}
+
+.paddingBottom{
+    padding-top:60px;
+}
+
+.formgroupPadding{
+    padding-right: 10px;
+}
+.center{
+    margin:auto;
+    position: relative;
+    top: 0; left: 0; bottom: 0; right: 0;
+    border-radius:5%;
+}
+
+.bootstrap-select  li.selected a{
+    background: #3086E4;
+    color: white;
+}
+.bootstrap-select  li.selected a:hover{
+    background: #256CB8;
+}
+@media only screen and (max-width:1110px)
+{
+    .la{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 499px) {
+    body{
+        padding-top: 150px;
+    }
+}
+@media only screen and (max-width: 640px) {
+    /* Tooltip container*/
+    .tooltip {
+        position: relative;
+        display: inline-block;
+        border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+    }
+
+    /* Tooltip text */
+    .tooltip .tooltiptext{
+        visibility: hidden;
+        width: 350px;
+        background-color: black;
+        color: #fff;
+        text-align: center;
+        padding: 5px 0;
+        border-radius: 6px;
+        left:105%;
+        top:-5px;
+
+        /* Position the tooltip text - see examples below! */
+        position: absolute;
+        z-index: -1;
+    }
+
+    .tooltip .tooltiptext a{
+        color: #FFFFFF;
+    }
+    /* Show the tooltip text when you mouse over the tooltip container */
+    .tooltip:hover .tooltiptext {
+        visibility: visible;
+    }
+
+
+}
+/*
+#hideme{
+    display: none;
+}
+*/
+.req{
+    color: #9f3a38;
+    font-weight:bolder;
+}
+
+.v-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.filter-bg{
+    background-color: #b7b7b7;
+    height:150px;
+}
+
+.filter-table .quick { margin-left: 0.5em; font-size: 0.8em; text-decoration: none; }
+.fitler-table .quick:hover { text-decoration: underline; }
+td.alt { background-color: #ffc; background-color: rgba(255, 255, 0, 0.2); }
+
+.selectpicker{
+    width:100%;
+}
+
+
+
+
+
+
+
+
+
+
+.clearfix{*zoom:1;}.clearfix:before,.clearfix:after{display:table;content:"";line-height:0;}
+.clearfix:after{clear:both;}
+.hide-text{font:0/0 a;color:transparent;text-shadow:none;background-color:transparent;border:0;}
+.input-block-level{display:block;width:100%;min-height:30px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+.btn-file{overflow:hidden;position:relative;vertical-align:middle;}.btn-file>input{position:absolute;top:0;right:0;margin:0;opacity:0;filter:alpha(opacity=0);transform:translate(-300px, 0) scale(4);font-size:23px;direction:ltr;cursor:pointer;}
+.fileupload{margin-bottom:9px;}.fileupload .uneditable-input{display:inline-block;margin-bottom:0px;vertical-align:middle;cursor:text;}
+.fileupload .thumbnail{overflow:hidden;display:inline-block;margin-bottom:5px;vertical-align:middle;text-align:center;}.fileupload .thumbnail>img{display:inline-block;vertical-align:middle;max-height:100%;}
+.fileupload .btn{vertical-align:middle;}
+.fileupload-exists .fileupload-new,.fileupload-new .fileupload-exists{display:none;}
+.fileupload-inline .fileupload-controls{display:inline;}
+.fileupload-new .input-append .btn-file{-webkit-border-radius:0 3px 3px 0;-moz-border-radius:0 3px 3px 0;border-radius:0 3px 3px 0;}
+.thumbnail-borderless .thumbnail{border:none;padding:0;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;}
+.fileupload-new.thumbnail-borderless .thumbnail{border:1px solid #ddd;}
+.control-group.warning .fileupload .uneditable-input{color:#a47e3c;border-color:#a47e3c;}
+.control-group.warning .fileupload .fileupload-preview{color:#a47e3c;}
+.control-group.warning .fileupload .thumbnail{border-color:#a47e3c;}
+.control-group.error .fileupload .uneditable-input{color:#b94a48;border-color:#b94a48;}
+.control-group.error .fileupload .fileupload-preview{color:#b94a48;}
+.control-group.error .fileupload .thumbnail{border-color:#b94a48;}
+.control-group.success .fileupload .uneditable-input{color:#468847;border-color:#468847;}
+.control-group.success .fileupload .fileupload-preview{color:#468847;}
+.control-group.success .fileupload .thumbnail{border-color:#468847;}
+
+
+.ks-bio{
+    font-size: 12pt;
+}
+
+.badge-default-outline{
+    max-width: 200px;
+    overflow: hidden;
+}
+
+.tab-content {
+    width: 100%;
+}
+
+.iziModal{
+    max-width: 800px; !important; !important;
+}

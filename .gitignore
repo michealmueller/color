@@ -1,0 +1,10 @@
+# Created by .ignore support plugin (hsz.mobi)
+/public_html/storage
+/laravel/storage
+/laravel/.env
+/laravel/.phpstorm.meta.php
+/laravel/_ide_helper.php
+/.idea
+public
+/laravel/vendor/**
+!/laravel/vendor/devdojo/

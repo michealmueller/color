@@ -1,0 +1,117 @@
+.select2-container{
+    width: 100% !important;
+}
+
+.select2-container--default .select2-selection--single {
+    width: 100% !important;
+    z-index: 0;
+    height: 38px !important;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    border: solid 1px #dedede !important;
+    font-size: 12px;
+    color: #333 !important;
+    padding: 5px 15px 0 5px;
+}
+
+.advanced-search{
+    font-size: 10pt;
+}
+
+.directory .card-header{
+    background-image: url(/assets/img/cmg_login_bg_.jpeg);
+    width: 100%;
+    min-height: 35px;
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.directory .card-block{
+    background-color: #e6e6e61f;
+}
+
+.directory-card{
+    font-size: 12pt;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin: 0 5px 10px 5px;
+    box-shadow: 2px 2px #8888880f;
+}
+
+.directory-card .row{
+    border: 0px solid red;
+    margin:5px;
+}
+
+.directory-card:hover{
+    background: #eeeeee4a;
+}
+
+.directory-card h4{
+    font-size: 16pt;
+}
+.directory-card span{
+    font-size: 10pt;
+    color: #b3b3b3;
+}
+
+.directory-card span b{
+    font-size: 10pt;
+    color: #6f6e6e;
+}
+.directory-card h4{
+    font-size: 16pt;
+}
+.directory-card span{
+    font-size: 10pt;
+    color: #b3b3b3;
+}
+
+.directory-card span b{
+    font-size: 10pt;
+    color: #6f6e6e;
+}
+
+.directory-card .ks-icon{
+    font-size: 18pt;
+    color: #25628f;
+    margin-right: 10px;
+}
+
+.tooltip{
+    border-bottom: 0px solid #fff !important;
+}
+
+.tooltip-inner {
+    background-color: #00acd6 !important;
+    /*!important is not necessary if you place custom.css at the end of your css calls. For the purpose of this demo, it seems to be required in SO snippet*/
+    color: #fff;
+}
+
+.tooltip .tooltip-arrow {
+    border-top-color: #00acd6;
+}
+
+.tooltip.right .tooltip-arrow {
+    border-right-color: #00acd6;
+}
+
+.tooltip.bottom .tooltip-arrow {
+    border-bottom-color: #00acd6;
+}
+
+.tooltip.left .tooltip-arrow {
+    border-left-color: #00acd6;
+}
+
+.tooltip.bs-tooltip-bottom .tooltip-inner {
+    background:#00acd6 !important;
+}
+
+.tooltip .arrow:before {
+    border-bottom-color:#00acd6 !important;
+    border-top-color:#00acd6 !important;
+}

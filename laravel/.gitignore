@@ -1,0 +1,11 @@
+# Created by .ignore support plugin (hsz.mobi)
+/.env
+/.phpstorm.meta.php
+/_ide_helper.php
+/storage/
+/vendor/**/.git
+!/storage/app/public/default_avatar.jpeg
+/config/services.php
+/vendor/
+!/vendor/barryvdh/
+!/vendor/laravel/
